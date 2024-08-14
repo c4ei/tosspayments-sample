@@ -65,4 +65,4 @@ app.get("/fail", function (req, res) {
   res.sendFile(path);
 });
 
-app.listen(4242, () => console.log(`http://localhost:${4242} 으로 샘플 앱이 실행되었습니다.`));
+app.listen(process.env.PORT, () => console.log(`http://localhost:${process.env.PORT} 으로 샘플 앱이 실행되었습니다.`));
