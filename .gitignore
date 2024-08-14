@@ -1,4 +1,6 @@
 .env
+start.txt
+node_modules/
 /express-javascript/node_modules/
 /express-javascript/.idea
 

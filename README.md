@@ -1,13 +1,17 @@
-# tosspayments-sample
+# 토스페이먼츠 결제위젯 샘플 프로젝트
 
-토스페이먼츠 결제연동 샘플 프로젝트입니다.
+토스페이먼츠 결제위젯을 사용한 간단한 결제 프로젝트입니다. 결제위젯은 토스페이먼츠만의 기본 결제서비스로, 수많은 상점을 분석해서 만든 최적의 주문서 결제 UI예요.
 
-사용하는 언어를 선택해서 샘플 프로젝트로 빠르게 결제 연동을 시작하세요.
+1. 의존성 패키지를 다운로드합니다.
 
-- [Express + React](https://github.com/tosspayments/tosspayments-sample/tree/main/express-react)
-- [Express + JavaScript](https://github.com/tosspayments/tosspayments-sample/tree/main/express-javascript)
+   ```
+   npm install
+   ```
 
-## 더 알아보기
+2. 서버를 실행합니다.
 
-- [토스페이먼츠 공식 문서](https://docs.tosspayments.com/guides/v2/get-started)
-- [1:1 채팅(Discord)](https://discord.com/invite/VdkfJnknD9)
+   ```
+   npm start
+   ```
+
+3. http://localhost:4242 에서 샘플 프로젝트를 확인하세요.
